@@ -28,13 +28,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// app.use(function (req, res, next) {
-//     res.setHeader('Access-Control-Allow-Origin', 'http://blooming-ridge-67597.herokuapp.com/');
-//     res.setHeader('Access-Control-Allow-Methods', 'POST');
-//     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-//     res.setHeader('Access-Control-Allow-Credentials', true);
-//     next();
-// });
+app.use(function (req, res, next) {
+    res.setHeader('Access-Control-Allow-Origin', 'https://blooming-ridge-67597.herokuapp.com/');
+    res.setHeader('Access-Control-Allow-Methods', ['POST', 'GET']);
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    next();
+});
 
 app.use(multer({
     dest: DIR,
