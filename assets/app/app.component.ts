@@ -5,7 +5,7 @@ import {Subject} from 'rxjs/Subject';
 import {Http} from '@angular/http';
 import 'rxjs/Rx';
 
-const URL = 'http://localhost:3000/upload';
+const URL = 'https://blooming-ridge-67597.herokuapp.com/';
 
 @Component({
     selector: 'my-app',
@@ -38,7 +38,7 @@ export class AppComponent implements OnInit{
     }
 
     downloadFile() {
-        this.http.get('http://localhost:3000/upload')
+        this.http.get('https://blooming-ridge-67597.herokuapp.com/upload')
             .subscribe(
                 (response) => {
                     console.log(response);
