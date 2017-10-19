@@ -19,7 +19,7 @@ router.post('/', upload.single('file'), function(req, res) {
 router.get('/', function (req, res) {
     var name = files.pop();
     var oriname = orinames.pop();
-    res.download('./upload/' + name, name);
+    res.download('./upload/' + name, oriname);
 });
 
 module.exports = router;
