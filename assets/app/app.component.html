@@ -1,0 +1,17 @@
+<input type="file" ng2FileSelect [uploader]="uploader" multiple/>
+<hr>
+<div>
+    <!-- <button type="button" class="btn btn-primary" (click)="addFile()">Add All Files to List</button> -->
+    <!-- <button type="button" class="btn btn-primary" (click)="clear()">Clear List</button> -->
+    <button type="button" class="btn btn-primary" (click)="uploadFile()">Upload All</button>
+    <button type="button" class="btn btn-primary" (click)="downloadFile()">Download</button>
+</div>
+<hr>
+<div>
+    <div class="col-xs-6">
+        <my-playlist></my-playlist>
+    </div>
+</div>
+<div class="col-xs-6">
+    <my-videoplayer></my-videoplayer>
+</div>
