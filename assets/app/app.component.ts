@@ -47,8 +47,6 @@ export class AppComponent implements OnInit{
                     this.fileList.push(tmp);
                     this.fileListChanged.next(<any>(this.fileList.slice()));
                     window.open('./upload');
-
-
                 },
                 (err) => {
                     console.log(err);
