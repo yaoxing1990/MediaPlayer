@@ -22,7 +22,7 @@ export class VideoplayerComponent implements OnInit{
     }
 
     open() {
-        window.open("https://blooming-ridge-67597.herokuapp.com/upload" + this.name);
+        window.open("https://blooming-ridge-67597.herokuapp.com/upload/" + this.name);
         //window.open("http://localhost:3000/upload/" + this.name);
     }
 
