@@ -72,9 +72,10 @@ conn.once("open", function() {
 
             readstream.on('end', function() {
                 data = Buffer.concat(data);
-                var img = 'data:video/mp4;base64,' + Buffer(data).toString('base64');
-                var file = utf8.decode(img)
-                res.end(encode.decode(file, "base64"));
+                //var img = 'data:video/mp4;base64,' + Buffer(data).toString('base64');
+                //var file = utf8.decode(img)
+                //res.end(encode.decode(file, "base64"));
+                res.end(data);
             });
 
             readstream.on('error', function(err){

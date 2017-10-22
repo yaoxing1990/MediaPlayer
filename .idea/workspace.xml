@@ -47,8 +47,8 @@
       <file leaf-file-name="upload.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/upload.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="76" column="55" lean-forward="true" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+            <state relative-caret-position="359">
+              <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -59,9 +59,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
               <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-              <folding>
-                <marker date="1508644151672" expanded="true" signature="662:1900" ph="{&quot;@angular/animations&quot;: &quot;^4.4.6&quot;...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,7 +178,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="666" />
+    <option name="x" value="335" />
+    <option name="y" value="31" />
     <option name="width" value="1096" />
     <option name="height" value="1038" />
   </component>
@@ -200,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,8 +249,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,11 +384,12 @@
       <workItem from="1508641035994" duration="766000" />
       <workItem from="1508641988450" duration="67000" />
       <workItem from="1508644059933" duration="406000" />
+      <workItem from="1508645280609" duration="69000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180737000" />
+    <option name="totallyTimeSpent" value="180806000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -401,10 +401,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="666" y="0" width="1096" height="1038" extended-state="0" />
+    <frame x="335" y="31" width="1096" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25803402" sideWeight="0.49074075" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34729064" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -420,6 +419,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37444445" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -595,9 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-          <folding>
-            <marker date="1508644151672" expanded="true" signature="662:1900" ph="{&quot;@angular/animations&quot;: &quot;^4.4.6&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -665,8 +663,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/upload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="76" column="55" lean-forward="true" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+        <state relative-caret-position="359">
+          <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
           <folding />
         </state>
       </provider>
