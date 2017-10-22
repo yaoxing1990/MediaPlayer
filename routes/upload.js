@@ -9,6 +9,7 @@ var mongoose = require("mongoose");
 var Grid = require("gridfs-stream");
 var conn = mongoose.connection;
 var encode = require('nodejs-base64-encode');
+var utf8 = require('utf8');
 Grid.mongo = mongoose.mongo;
 var gfs;
 
@@ -72,7 +73,8 @@ conn.once("open", function() {
             readstream.on('end', function() {
                 data = Buffer.concat(data);
                 var img = 'data:video/mp4;base64,' + Buffer(data).toString('base64');
-                res.end(encode.decode(img, "base64"));
+                var file = utf8.decode(img)
+                res.end(encode.decode(file, "base64"));
             });
 
             readstream.on('error', function(err){
