@@ -21,7 +21,7 @@ const busboyBodyParser = require('busboy-body-parser');
 
 
 //mongoose.connect('localhost:27017/media');
-mongoose.connect('mongodb://yaoxing1990:1pf3h6tfg@ds039010.mlab.com:39010/angular2-deployment');
+mongoose.connect('mongodb://yaoxing:yaoxing@ds227525.mlab.com:27525/media_mongodb_deploy');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
