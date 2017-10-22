@@ -1,10 +1,12 @@
-<input type="file" ng2FileSelect [uploader]="uploader" multiple/>
+<!-- <input type="file" ng2FileSelect [uploader]="uploader" multiple/> -->
+<input #myfile type="file" placeholder="Upload file" accept=".pdf,.doc,.docx, .mp4" multiple>
 <hr>
 <div>
     <!-- <button type="button" class="btn btn-primary" (click)="addFile()">Add All Files to List</button> -->
-    <!-- <button type="button" class="btn btn-primary" (click)="clear()">Clear List</button> -->
+    <button type="button" class="btn btn-primary" (click)="addFile()">Add All</button>
+    <button type="button" class="btn btn-primary" (click)="clear()">Clear List</button>
     <button type="button" class="btn btn-primary" (click)="uploadFile()">Upload All</button>
-    <button type="button" class="btn btn-primary" (click)="downloadFile()">Download</button>
+    <!-- <button type="button" class="btn btn-primary" (click)="downloadFile()">Download</button> -->
 </div>
 <hr>
 <div>
